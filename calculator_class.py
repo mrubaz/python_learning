@@ -1,7 +1,8 @@
 class Calculator:
-    def __init__(self, num1, num2):
-        self.num1 = num1
-        self.num2 = num2
+    def __init__(self, n1, n2):
+        print("This is Constructor")
+        self.num1 = n1
+        self.num2 = n2
 
     def add(self):
         return self.num1 + self.num2
@@ -29,7 +30,6 @@ if __name__ == "__main__":
     print("Press 4 for Divide")
     operation = input("Choose operation: ")
 
-    # Create calculator object
     calc = Calculator(num1, num2)
 
     # Perform operation
